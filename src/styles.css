@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+/* Global Header styles */
+header {
+    background-color: #ffd700; /* Gold background color */
+    padding: 10px 20px; /* Padding for spacing */
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space out items */
+  }
+  
+  header img {
+    height: 50px; /* Logo height */
+  }
+  
+  header nav a {
+    color: #000; /* Black text color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 15px; /* Spacing between links */
+    font-weight: bold; /* Bold text */
+  }
+  
+  header nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
